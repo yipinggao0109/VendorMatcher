@@ -18,5 +18,5 @@ RUN pip install --upgrade pip && pip install -r requirements.txt
 # Expose Flask port
 EXPOSE 5000
 
-# Set default command to run your API
+# Set default command to run the API
 CMD ["python", "vendor_api.py"]
